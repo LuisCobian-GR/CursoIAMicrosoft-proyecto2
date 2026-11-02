@@ -1,0 +1,20 @@
+{
+  "name": "guia-tec",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file-if-exists=.env --watch server.js",
+    "create-agent": "node --env-file=.env scripts/create-agent.js",
+    "load-knowledge": "node --env-file=.env scripts/load-knowledge.js"
+  },
+  "dependencies": {
+    "@azure/ai-projects": "^2.7.1",
+    "@azure/identity": "^4.13.3",
+    "express": "^5.2.1"
+  }
+}

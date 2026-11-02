@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Guía Tec | Ingeniería Informática TSJ</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="logos">
+      <img class="logo-informatica" src="/images/logo_informatica.png" alt="Ingeniería Informática">
+      <span class="logo-badge">
+        <img class="logo-tsj" src="/images/logo_tsj.png" alt="Tecnológico Superior de Jalisco">
+      </span>
+    </div>
+    <h1>Guía Tec</h1>
+    <p>Tu asistente vocacional para descubrir si Ingeniería Informática es para ti.</p>
+  </header>
+
+  <main class="chat">
+    <div id="messages" class="messages" role="log" aria-live="polite" aria-label="Conversación con Guía Tec">
+      <div class="msg bot">¡Hola! Soy Guía Tec, una inteligencia artificial que te orienta sobre Ingeniería Informática en el Tecnológico Superior de Jalisco (TSJ). Soy un prototipo académico no oficial: para datos oficiales consulta www.tsj.mx. ¿Qué te gustaría saber o qué te gusta hacer con la tecnología?</div>
+    </div>
+    <form id="chat-form" class="composer">
+      <label for="input" class="sr-only">Escribe tu pregunta</label>
+      <input id="input" type="text" maxlength="2000"
+             placeholder="Escribe tu pregunta…" autocomplete="off" required>
+      <button id="send" type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="foot">
+    Prototipo académico no oficial · Las respuestas las genera una IA y pueden contener errores.
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

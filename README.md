@@ -9,9 +9,10 @@ Chatbot web que orienta a aspirantes que se preguntan si Ingeniería Informátic
 - Martha Leticia Colmenares Zepeda
 - Juan Carlos Garcia Sepúlveda
 - José Luis Cobián Hermosillo
+
 **Proyecto integrador:** (continuación del proyecto de la fase 1)
 
-> Es un prototipo académico. No es un canal oficial del TSJ ni tiene relación con la institución.
+> Es un prototipo académico. No es un canal oficial del TSJ.
 
 ![Guía Tec funcionando en Azure](capturas/captuira1.png)
 
@@ -76,7 +77,7 @@ Está en [`conocimiento/tsj-informatica.md`](conocimiento/tsj-informatica.md) y 
 - La lista de programas de 2025 y las cifras de 2026; las carreras de computación (Ingeniería en Sistemas Computacionales, Ingeniería en Informática y Maestría en Sistemas Computacionales).
 - Los pasos del proceso de admisión de 2025 y los costos publicados entonces (examen de 600 pesos y tarifa de infraestructura semestral de 2,500).
 
-Cada dato indica su fuente y su fecha. Lo que **no** pude encontrar quedó anotado como faltante en el mismo documento: plan de estudios, perfiles de ingreso y egreso, becas, colegiatura, fechas de 2026, documentos requeridos y datos de contacto. El sitio oficial del TSJ no me permitió leer ese contenido de forma automática. Por eso el agente está configurado para decir "no lo tengo" en esos casos.
+Cada dato indica su fuente y su fecha. Lo que **no** se pudo encontrar quedó anotado como faltante en el mismo documento: plan de estudios, perfiles de ingreso y egreso, becas, colegiatura, fechas de 2026, documentos requeridos y datos de contacto. El sitio oficial del TSJ no permite leer ese contenido de forma automática. Por eso el agente está configurado para decir "no lo tengo" en esos casos.
 
 ## 6. IA responsable
 
@@ -91,7 +92,7 @@ Las reglas están escritas en las instrucciones del agente ([`scripts/create-age
 | **Transparencia** | El primer mensaje dice que es una IA y un prototipo no oficial; cada respuesta basada en el conocimiento muestra su fuente; el pie de página advierte que puede equivocarse. | Captura de arriba. | |
 | **Rendición de cuentas** | El agente solo orienta: no decide nada y siempre remite a Servicios Escolares o a www.tsj.mx para trámites. | Instrucciones del agente. | **No hay un flujo de seguimiento por una persona del plantel** (ver sección 9). |
 
-## 7. Pruebas que hice
+## 7. Pruebas que se hicieron 
 
 | Prueba | Resultado |
 |---|---|

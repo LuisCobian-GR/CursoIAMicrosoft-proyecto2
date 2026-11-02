@@ -6,7 +6,7 @@ Chatbot web que orienta a aspirantes que se preguntan si Ingeniería Informátic
 (corre en el plan gratuito de Azure; si lleva un rato sin visitas, la primera carga puede tardar unos segundos)
 
 **Autores:** 
-- Martha Leticia Colmenares Zapeda
+- Martha Leticia Colmenares Zepeda
 - Juan Carlos Garcia Sepúlveda
 - José Luis Cobián Hermosillo
 **Proyecto integrador:** (continuación del proyecto de la fase 1)

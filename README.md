@@ -7,7 +7,7 @@ Chatbot web que orienta a aspirantes que se preguntan si Ingeniería Informátic
 
 **Autores:** 
 - Martha Leticia Colmenares Zepeda
-- Juan Carlos Garcia Sepúlveda
+- Juan Carlos García Sepúlveda
 - José Luis Cobián Hermosillo
 
 **Proyecto integrador:** (continuación del proyecto de la fase 1)
